@@ -53,8 +53,7 @@ FEDERATED-LEARNING-BASED-FACE-MOOD-AND-EYE-BLINK-RECOGNITION/
 │
 ├── backend/              # Core logic and APIs
 ├── models/               # Trained ML models
-├── dataset/              # Dataset (if included)
-├── outputs/              # Screenshots / results
+├── outputs/              # Results
 ├── requirements.txt      # Dependencies
 ├── README.md             # Project documentation
 ```
