@@ -96,18 +96,6 @@ python app.py
 
 ---
 
-## 📸 Results / Output
-
-(Add screenshots here)
-
-Example:
-
-* Face detection output
-* Eye blink detection
-* Mood classification
-
----
-
 ## 🔐 Advantages
 
 * Enhances privacy (no centralized data storage)
@@ -145,7 +133,7 @@ Example:
 
 ## 👨‍💻 Author
 
-Mahesh
+C.Mahesh
 
 ---
 
