@@ -20,7 +20,7 @@ A privacy-preserving, Federated Learning-based web application that detects user
 
 1.  **Clone/Download** the repository.
 2.  **Install Dependencies**:
-    ```bash
+    ```bashvenv
     pip install -r requirements.txt
     ```
 
