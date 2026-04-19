@@ -59,6 +59,17 @@ python app.py
 
 ---
 
+## 🔐 Federated Learning Implementation
+
+This project demonstrates a **conceptual implementation** of federated learning.
+
+* Data remains on local devices
+* Model training is simulated locally
+* Only model updates are considered for sharing
+
+Due to system constraints, a full distributed federated learning setup was not implemented. However, the project follows the core principles of privacy-preserving machine learning.
+
+
 ## 🏗️ System Architecture
 
 ```
