@@ -1,55 +1,155 @@
 # Face & Eye Blink Recognition for Mood Detection
 
-A privacy-preserving, Federated Learning-based web application that detects user mood, eye blinks, and face presence in real-time.
+# FEDERATED LEARNING BASED FACE MOOD AND EYE BLINK RECOGNITION
 
-## 🚀 Features
-- **Real-time Face Detection**: Uses optimized Haar Cascades.
-- **Eye Blink Counting**: Tracks user attention and fatigue.
-- **Mood Detection**: Classifies facial expressions (Happy, Neutral, Sad, Angry) using Computer Vision & Heuristics.
-- **Visual Tech Overlay**: "Iron Man" style HUD with tracking grids for Face, Eyes, Mouth, and Eyebrows.
-- **Privacy-First**: Designed with Federated Learning concepts (local processing).
-- **Modern UI**: Dark-themed, responsive dashboard.
+## 📌 Project Overview
 
-## 🛠️ Tech Stack
-- **Frontend**: HTML5, CSS3, JavaScript (WebSocket, Canvas)
-- **Backend**: Python, FastAPI
-- **Computer Vision**: OpenCV (Haar Cascades)
-- **Communication**: WebSockets for real-time streaming
+This project is a **privacy-preserving biometric system** that combines:
 
-## 📦 Installation
+* Face Recognition
+* Eye Blink Detection
+* Mood/Emotion Detection
+* Federated Learning
 
-1.  **Clone/Download** the repository.
-2.  **Install Dependencies**:
-    ```bashvenv
-    pip install -r requirements.txt
-    ```
+The system enhances **security and user authentication** by ensuring that sensitive data is not centrally stored, but instead processed locally using federated learning.
 
-## ▶️ How to Run
+---
 
-### Option 1: One-Click (Windows)
-Double-click `run.bat`.
+## 🎯 Objectives
 
-### Option 2: Manual
-```bash
-# Activate virtual environment (if created)
-# .\venv\Scripts\activate
+* Detect and recognize human faces in real-time
+* Identify eye blinks for liveness detection
+* Analyze facial expressions to detect mood
+* Implement federated learning for secure model training
+* Improve authentication reliability using multi-factor biometrics
 
-cd backend
-python main.py
-```
+---
 
-The application will start at **http://localhost:8000**.
+## 🧠 Technologies Used
+
+* Python
+* OpenCV
+* TensorFlow / PyTorch (based on your implementation)
+* NumPy
+* Flask / FastAPI (backend)
+* Federated Learning concepts
+
+---
+
+## 🏗️ System Architecture
+
+1. User input captured via webcam
+2. Face detection using OpenCV
+3. Eye blink detection for liveness verification
+4. Mood detection using trained model
+5. Federated learning used to update model without sharing raw data
+
+---
 
 ## 📂 Project Structure
-- `backend/`: Core application logic.
-    - `main.py`: FastAPI server & WebSocket handler.
-    - `cv_logic.py`: Computer Vision algorithms.
-- `frontend/`: User Interface.
-    - `index.html`: Dashboard & Camera logic.
-- `models/`: Directory for ML models (e.g., `emotion_model.h5`).
 
-## 🧠 Federated Learning Concept
-This system adheres to **Federated Learning principles**:
-1.  **Local Processing**: Video frames are processed to extract features (blink count, emotion) *during* the session.
-2.  **Privacy**: Raw video data is NOT stored by the server; only aggregated metrics (status updates) are processed.
-3.  **Model Layout**: The architecture supports deploying global model updates to clients without uploading user data to a central cloud.
+```
+FEDERATED-LEARNING-BASED-FACE-MOOD-AND-EYE-BLINK-RECOGNITION/
+│
+├── backend/              # Core logic and APIs
+├── models/               # Trained ML models
+├── dataset/              # Dataset (if included)
+├── outputs/              # Screenshots / results
+├── requirements.txt      # Dependencies
+├── README.md             # Project documentation
+```
+
+---
+
+## ⚙️ Installation & Setup
+
+### Step 1: Clone the Repository
+
+```
+git clone https://github.com/mahesh-learns/FEDERATED-LEARNING-BASED-FACE-MOOD-AND-EYE-BLINK-RECOGNITION.git
+cd FEDERATED-LEARNING-BASED-FACE-MOOD-AND-EYE-BLINK-RECOGNITION
+```
+
+### Step 2: Install Dependencies
+
+```
+pip install -r requirements.txt
+```
+
+### Step 3: Run the Project
+
+```
+python app.py
+```
+
+(or your main file name)
+
+---
+
+## 📊 Features
+
+* Real-time face detection
+* Eye blink-based liveness detection
+* Mood/emotion recognition
+* Privacy-preserving federated learning
+* Multi-modal authentication system
+
+---
+
+## 📸 Results / Output
+
+(Add screenshots here)
+
+Example:
+
+* Face detection output
+* Eye blink detection
+* Mood classification
+
+---
+
+## 🔐 Advantages
+
+* Enhances privacy (no centralized data storage)
+* Reduces risk of data breaches
+* Improves authentication accuracy
+* Scalable across multiple devices
+
+---
+
+## 🚧 Limitations
+
+* Requires good lighting conditions
+* Performance depends on dataset quality
+* Federated learning implementation complexity
+
+---
+
+## 🔮 Future Scope
+
+* Improve model accuracy using larger datasets
+* Deploy on mobile devices
+* Add voice recognition
+* Integrate with real-world security systems
+
+---
+
+## 📄 Project Report
+
+[Federated_Learning_COMPLETE_PROJECT_PPT.pptx](https://github.com/user-attachments/files/26874875/Federated_Learning_COMPLETE_PROJECT_PPT.pptx)
+
+
+
+
+---
+
+## 👨‍💻 Author
+
+Mahesh
+
+---
+
+## ⭐ Conclusion
+
+This project demonstrates how **AI + Federated Learning** can be combined to build a **secure, intelligent, and privacy-focused biometric authentication system**.
+
